@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <!--loads the head-->
 @@include('partials/head.html')
   </head>
 
   <body>
-@@include('partials/nav.html')
-@@include('partials/portfolio.html')
+
+    <!--loads the navbar-->
+<!--@@include('partials/nav.html')-->
+
+    <!--loads the heroMain.html-->
+@@include('partials/heroMain.html')
+@@include('partials/heroMainInfo.html')
+
+    <!--loads the heroSecondary.html)-->
+@@include('partials/heroSecondary.html')
+@@include('partials/heroSecondaryInfo.html')
+<!--@@include('partials/contentTest.html')-->
+
+    <!--loads the bootstrap.js core last to prevent slow page load-->
+@@include('partials/loadlastjs.html')
+
   </body>
 </html>

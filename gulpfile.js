@@ -5,10 +5,26 @@ var sass        = require('gulp-sass');
 
 var reload      = browserSync.reload;
 
+var bootstrapSass = {
+    src: './node_modules/bootstrap-sass/'
+};
+
+var fonts = {
+    srcFont:    ['private/fonts/*.*', bootstrapSass.src + 'assets/fonts/**/*'],
+    destFont:   'public/fonts/'
+};
+
 var src = {
     //Scss and css.
     scss:                 'private/scss/*.scss',
     css:                  'public/css',
+
+    sassOpts: {
+        outputStyle: 'nested',
+        precision: 3,
+        errLogToConsole: true,
+        includePaths: [bootstrapSass.src + 'assets/stylesheets']
+    },
 
     HTMLpartial:          'private/partials/*.html',
     portfolioHTMLpartial: 'private/partials/projects/*.html',
@@ -42,7 +58,7 @@ gulp.task('serve', ['sass','fileinclude'], function() {
 // Compile sass into CSS
 gulp.task('sass', function() {
     return gulp.src(src.scss)
-        .pipe(sass())
+        .pipe(sass(src.sassOpts))
         .pipe(gulp.dest(src.css))
         .pipe(reload({stream: true}));
 });
@@ -66,6 +82,12 @@ gulp.task('fileinclude', function() {
     }))
     .pipe(gulp.dest(src.HTMLdest));
 
+});
+
+//copy bootstrap fonts to required destination.
+gulp.task('fonts', function(){
+  return gulp.src(fonts.srcFont)
+    .pipe(gulp.dest(fonts.destFont));
 });
 
 gulp.task('default', ['serve']);

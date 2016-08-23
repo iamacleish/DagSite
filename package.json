@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/iamacleish/BattleForTheRingSite#readme",
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-file-include": "^0.13.7",
