@@ -1,2 +1,5 @@
+'''console
 npm install
-change the package.json git repos and project folder names.
+'''
+
+Using twitter bootstrap3.
