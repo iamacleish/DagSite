@@ -8,17 +8,18 @@
 
   <body>
 
-    <!--loads the navbar-->
-<!--@@include('partials/nav.html')-->
+    <!--loads the navbar UNUSED-->
+    <!--@@include('partials/nav.html')-->
 
     <!--loads the heroMain.html-->
+    <!--Header, about, and event info.-->
 @@include('partials/heroMain.html')
-@@include('partials/heroMainInfo.html')
 
-    <!--loads the heroSecondary.html)-->
+    <!--loads the heroSecondary.html (volunteering)-->
 @@include('partials/heroSecondary.html')
-@@include('partials/heroSecondaryInfo.html')
-<!--@@include('partials/contentTest.html')-->
+
+    <!--loads the body content. Schedule, staff, and contact.-->
+@@include('partials/body1.html')
 
     <!--loads the bootstrap.js core last to prevent slow page load-->
 @@include('partials/loadlastjs.html')

@@ -27,7 +27,7 @@ var src = {
     },
 
     HTMLpartial:          'private/partials/*.html',
-    portfolioHTMLpartial: 'private/partials/projects/*.html',
+    heroHTMLpartials:     'private/partials/**/*.html',
 
     //The main index. Target of serve.
     indexHTMLsrc:         'private/index.html',
@@ -51,7 +51,7 @@ gulp.task('serve', ['sass','fileinclude'], function() {
     gulp.watch(src.HTMLpartial, ['fileinclude']);
     gulp.watch(src.indexHTMLsrc, ['fileinclude']);
     gulp.watch(src.HTMLsrc, ['fileinclude']);
-    gulp.watch(src.portfolioHTMLpartial, ['fileinclude']);
+    gulp.watch(src.heroHTMLpartials, ['fileinclude']);
     gulp.watch(src.indexHTML).on('change', reload);
 });
 

@@ -5,8 +5,47 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../assets/img/bftrtop.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto 100%; }
+  background-size: auto 100%;
+  margin-bottom: 0; }
   .heroMain h1 {
     color: #ffffff; }
+  .heroMain h3 {
+    margin-top: 0px; }
   .heroMain p {
     color: #ffffff; }
+
+.heroFluffContainer {
+  padding-top: 25px; }
+
+.heroMainFluff {
+  background-image: url(../assets/img/heroSecondary.jpg);
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.heroSecondaryFluff {
+  background-image: url(../assets/img/volunteerImg.jpg);
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body1Fluff {
+  margin-top: 25px;
+  margin-bottom: 0;
+  background-image: url(../assets/img/fieldBattle.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; }
+
+.containerTextPadding {
+  padding-top: 10px; }
+
+.container .jumbotron {
+  border-radius: 0px;
+  margin-bottom: 0; }
