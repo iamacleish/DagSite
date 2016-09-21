@@ -14,6 +14,10 @@ h2 {
   .heroMain p {
     color: #ffffff; }
 
+.videoPadding {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 .heroFluffContainer {
   padding-top: 25px; }
 
@@ -44,7 +48,7 @@ h2 {
   height: 400px; }
 
 .containerTextPadding {
-  padding-top: 10px; }
+  padding-top: 14px; }
 
 .container .jumbotron {
   border-radius: 0px;
