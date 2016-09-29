@@ -13,6 +13,10 @@ h2{
 
   h1{
     color: $color-primary;
+    a{
+      text-decoration: none;
+      color: $color-primary;
+    }
   }
   h3{
     margin-top:0px;
@@ -20,7 +24,36 @@ h2{
   p{
     color: $color-primary;
   }
+
 }
+
+.whatToExpectFluff{
+  //hero image
+  background-image:url(../assets/img/bftrAbove.jpg);
+
+  //Height
+  height:400px;
+
+  //Parallax
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whatToExpectFluffPadding{
+  padding-bottom: 40px;
+}
+.whatToExpectTextPadding{
+  padding-bottom: 85px;
+  padding-top: 40px;
+  h1{
+    a{
+      text-decoration: none;
+      color: #333333;
+    }
+  }
+}
+
 .videoPadding{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -80,4 +113,9 @@ h2{
 .container .jumbotron{
     border-radius: 0px;
     margin-bottom: 0;
+}
+
+
+.btn{
+  background-image: none;
 }
