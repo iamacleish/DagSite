@@ -17,6 +17,9 @@ h2 {
   .heroMain p {
     color: #ffffff; }
 
+.removeBottomMargin {
+  margin-bottom: 0; }
+
 .whatToExpectFluff {
   background-image: url(../assets/img/bftrAbove.jpg);
   height: 400px;
