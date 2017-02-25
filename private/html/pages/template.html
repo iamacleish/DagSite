@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="../css/bootstrapImport.css">
-    <link type="text/css" rel="stylesheet" href="../css/styles.css">
-    <title>Battle for the Ring</title>
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrapImport.css">
+    <link type="text/css" rel="stylesheet" href="../../css/styles.css">
+    <title>SAR EMR App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
@@ -14,11 +14,10 @@
 
     <!--loads the heroMain.html-->
     <!--Header, about, and event info.-->
-@@include('../partials/heroMain/heroMainHeadHtml.html')
+@@include('../../partials/heroMain/heroMainHead.html')
 
     <!--Loads the what to expect content/paragraph/videos-->
-@@include('whatToExpect/whatToExpectInfo.html')
-@@include('whatToExpect/whatToExpectFluff.html')
+@@include('../pageContents/templateInfo.html')
 
     <!--loads the bootstrap.js core last to prevent slow page load-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
