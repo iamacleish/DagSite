@@ -1,5 +1,13 @@
 h2 {
-  color: #000000; }
+  color: #000000;
+  font-weight: 400;
+  font-size: 28px; }
+
+p {
+  font-size: 18px; }
+
+li {
+  font-size: 22px; }
 
 .heroMain {
   background-color: #FF6030;
@@ -8,14 +16,18 @@ h2 {
   background-size: cover;
   margin-bottom: 0; }
   .heroMain h1 {
-    color: #000000; }
+    color: #000000;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-size: 28px; }
     .heroMain h1 a {
       text-decoration: none;
       color: #000000; }
   .heroMain h3 {
     margin-top: 0px; }
   .heroMain p {
-    color: #000000; }
+    color: #000000;
+    font-size: 18px; }
 
 .removeBottomMargin {
   margin-bottom: 0; }
@@ -74,5 +86,15 @@ h2 {
   border-radius: 0px;
   margin-bottom: 0; }
 
+.jumbotron {
+  padding-bottom: 0px;
+  padding-top: 0px; }
+
 .btn {
   background-image: none; }
+
+.btn-next {
+  background-color: rgba(255, 96, 48, 0.15); }
+
+.indexBtnStyle .btn {
+  text-align: left; }
