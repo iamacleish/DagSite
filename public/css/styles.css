@@ -98,3 +98,17 @@ li {
 
 .indexBtnStyle .btn {
   text-align: left; }
+
+.sarTables tbody tr td {
+  font-size: 22px; }
+
+table td + td {
+  /* this will go to the 2nd column of a table directly */ }
+
+table tr:nth-child(odd) {
+  background-color: #D2D2D2;
+  background-color: rgba(255, 96, 48, 0.15); }
+
+table tr:first-child td {
+  background-color: #BABABA;
+  background-color: #ff9371; }

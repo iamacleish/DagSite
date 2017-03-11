@@ -1,5 +1,7 @@
 $color-primary: #000000;
 $color-sar-orange: #FF6030;
+$color-sar-lightOrange:#ff9371;
+$color-sar-paleOrange: rgba(255, 96, 48, 0.15);
 h2{
   color: #000000;
   font-weight: 400;
@@ -138,10 +140,34 @@ li{
   background-image: none;
 }
 .btn-next{
-  background-color: rgba(255, 96, 48, 0.15);
+  background-color: $color-sar-paleOrange;
 }
 .indexBtnStyle{
   .btn{
     text-align: left;
+  }
+}
+.sarTables{
+  tbody{
+    tr{
+      td{
+        font-size:22px;
+      }
+    }
+  }
+}
+
+table td + td{  /* this will go to the 2nd column of a table directly */
+
+
+}
+table{
+  tr:nth-child(odd) {
+    background-color: #D2D2D2;
+    background-color: $color-sar-paleOrange;
+  }
+  tr:first-child td{
+    background-color: #BABABA;
+    background-color: $color-sar-lightOrange;
   }
 }
