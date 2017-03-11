@@ -99,6 +99,9 @@ li {
 .indexBtnStyle .btn {
   text-align: left; }
 
+.btn-lg {
+  font-size: 20px; }
+
 .sarTables tbody tr td {
   font-size: 22px; }
 
