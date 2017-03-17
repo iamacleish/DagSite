@@ -120,3 +120,12 @@ table tr:nth-child(odd) {
 table tr:first-child td {
   background-color: #BABABA;
   background-color: #ff9371; }
+
+.buttonChoiceOR {
+  text-align: center;
+  padding-top: 10px; }
+
+.btnStyleSecondaryAssess {
+  text-align: left;
+  white-space: normal;
+  margin-top: 10px; }

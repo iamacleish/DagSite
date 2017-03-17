@@ -132,6 +132,7 @@ li{
   .nonListParagraphContent{
     padding-left: 18px;
   }
+
 }
 .container .jumbotron{
     border-radius: 0px;
@@ -149,11 +150,15 @@ li{
 .btn-next{
   background-color: $color-sar-paleOrange;
 }
+
+
 .indexBtnStyle{
   .btn{
     text-align: left;
   }
 }
+
+
 .btn-lg{
     font-size: 20px;
 }
@@ -180,4 +185,13 @@ table{
     background-color: #BABABA;
     background-color: $color-sar-lightOrange;
   }
+}
+.buttonChoiceOR{
+  text-align: center;
+  padding-top: 10px;
+}
+.btnStyleSecondaryAssess{
+  text-align: left;
+  white-space: normal;
+  margin-top: 10px;
 }
