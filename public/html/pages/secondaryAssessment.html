@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="../../css/bootstrapImport.css">
-    <link type="text/css" rel="stylesheet" href="../../css/styles.css">
-    <title>SAR EMR App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" rel="stylesheet" href="../../css/bootstrapImport.css">
+<link type="text/css" rel="stylesheet" href="../../css/styles.css">
+<script type="text/javascript" charset="utf-8" src="../../cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/mycode.js"></script>
+<title>SAR EMR App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
   </head>
 
   <body>
@@ -18,7 +21,7 @@
   <div class="jumbotron heroMain">
 
     <div class="container overlay">
-      <h1><a href="../../index.html">EMR Guide</a></h1>
+      <h1><a href="javascript:backToIndex()">EMR Guide</a></h1>
       <p>Contra Costa County</p>
     </div>
 
@@ -96,7 +99,7 @@
       <a class="btn btn-default btn-block btn-lg btn-next btnStyleSecondaryAssess" style="margin-top:12px" href="#" role="button">
         Unresponsive Medical: Rapid Head to Toe
       </a>
-      <a class="btn btn-default btn-block btn-lg btn-next btnStyleSecondaryAssess" style="margin-top:12px" href="secondaryAssessmentPages/medical.html" role="button">
+      <a class="btn btn-default btn-block btn-lg btn-next btnStyleSecondaryAssess" style="margin-top:12px" href="pageContents/secondaryAssessmentPages/medical.html" role="button">
         Other Medical: SAMPLE, OPQRST, PASTE, etc.
       </a>
       <a class="btn btn-default btn-block btn-lg btn-next btnStyleSecondaryAssess" style="margin-top:12px" href="#" role="button">
@@ -114,7 +117,7 @@
       </a>
     </div>
     <div class="col-xs-6">
-      <a class="btn btn-default btn-block btn-lg" href="../../index.html" role="button">
+      <a class="btn btn-default btn-block btn-lg" href="javascript:backToIndex()" role="button">
         Index
       </a>
     </div>
