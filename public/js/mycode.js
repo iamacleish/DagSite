@@ -1,3 +1,11 @@
+$(document).ready(function(){
+    $(".toggleList").click(function(){
+      var target = "#list" + $(this).attr("id");
+      $(target).toggle();
+    });
+});
+
+
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     console.log("ready");
