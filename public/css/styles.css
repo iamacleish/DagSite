@@ -12,8 +12,13 @@ p {
 li {
   font-size: 22px; }
 
+img {
+  max-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 8px; }
+
 .dropDown {
-  margin-top: 8px; }
+  margin-top: 5px; }
   .dropDown li {
     font-size: 20px; }
 
