@@ -1,7 +1,12 @@
+$color-title-text: #F8A807;
 $color-primary: #000000;
-$color-sar-orange: #FF6030;
-$color-sar-lightOrange:#ff9371;
+$color-sar-brown: #510100;
+$color-sar-lightOrange: #ff9371;
+$color-orange: #FF6030;
 $color-sar-paleOrange: rgba(255, 96, 48, 0.15);
+
+
+
 h2{
   color: #000000;
   font-weight: 400;
@@ -23,127 +28,60 @@ img{
    padding-top: 15px;
    padding-bottom: 8px;
 }
+
+a, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color: $color-primary;
+}
+a.pdflink{
+  font-size: 18px;
+  color: $color-orange;
+}
+#footer {
+    height: 15px;
+}
+
+
 .dropDown{
   margin-top: 5px;
   li{
     font-size:20px;
   }
 }
-//li:nth-child(odd) {
-//  background: rgba(255, 96, 48, 0.15);
-//}
+
 .heroMain{
   //gradiennt and parallax
-  background-color: $color-sar-orange;
+  background-color: $color-sar-brown;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0;
 
   h1{
-    color: $color-primary;
-    a{
-      text-decoration: none;
-      color: $color-primary;
-    }
+    color: $color-title-text;
     margin-bottom: 8px;
     margin-top:15px;
-    font-size: 28px;
+    font-size: 42px;
 
   }
-  h3{
-    margin-top:0px;
-  }
   p{
-    color: $color-primary;
-    font-size: 18px;
+    color: $color-title-text;
+    font-size: 30px;
   }
 
 }
 .removeBottomMargin{
   margin-bottom: 0;
 }
-.whatToExpectFluff{
-  //hero image
-  background-image:url(../assets/img/bftrAbove.jpg);
-
-  //Height
-  height:400px;
-
-  //Parallax
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.whatToExpectFluffPadding{
-  padding-bottom: 40px;
-}
-.whatToExpectTextPadding{
-  padding-bottom: 85px;
-  padding-top: 40px;
-  h1{
-    a{
-      text-decoration: none;
-      color: #333333;
-    }
-  }
-}
-
-.heroFluffContainer{
-  padding-top: 25px;
-}
-.heroMainFluff{
-  //hero image
-  background-image:url(../assets/img/heroSecondary.jpg);
-
-  //Height
-  height:400px;
-
-  //Parallax
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.heroSecondaryFluff{
-  //hero image
-  background-image:url(../assets/img/volunteerImg.jpg);
-
-  //Height
-  height:400px;
 
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.body1Fluff{
-    margin-top: 25px;
-    margin-bottom: 0;
-    background-image:url(../assets/img/fieldBattle.jpg);
-
-    //Parallax
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    //Height
-    height:400px;
-
-
-}
 .containerTextPadding{
   padding-top: 14px;
+  background-color:#F3ECC9;
   .nonListParagraphContent{
     padding-left: 18px;
   }
+  height: 100%;
 
 }
 .container .jumbotron{
@@ -164,50 +102,35 @@ img{
 }
 
 
-.indexBtnStyle{
-  .btn{
-    text-align: left;
-  }
-}
+
 
 
 .btn-lg{
     font-size: 20px;
 }
+.btn-lg:hover{
+  background-color: $color-sar-paleOrange;
+}
+
+.btn-lg:active, .btn-lg.active{
+  background-color:$color-sar-paleOrange;
+}
+.btn-lg:focus{
+  background-color:$color-sar-paleOrange !important;
+}
+
 
 .btn-prev{
   font-size: 18px;
 }
-.sarTables{
-  tbody{
-    tr{
-      td{
-        font-size:22px;
-      }
-    }
-  }
-}
 
-table td + td{  /* this will go to the 2nd column of a table directly */
-
-
-}
-table{
-  tr:nth-child(odd) {
-    background-color: #D2D2D2;
-    background-color: $color-sar-paleOrange;
-  }
-  tr:first-child td{
-    background-color: #BABABA;
-    background-color: $color-sar-lightOrange;
-  }
-}
 .buttonChoiceOR{
   text-align: center;
   padding-top: 10px;
 }
-.btnStyleSecondaryAssess{
-  text-align: left;
-  white-space: normal;
-  margin-top: 10px;
+
+.carousel-inner{
+  background-position: 50%;
+  width:100%;
+  max-height: 250px !important;
 }

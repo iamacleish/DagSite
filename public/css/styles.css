@@ -17,83 +17,44 @@ img {
   padding-top: 15px;
   padding-bottom: 8px; }
 
+a, a:active, a:visited, a:focus {
+  text-decoration: none;
+  color: #000000; }
+
+a.pdflink {
+  font-size: 18px;
+  color: #FF6030; }
+
+#footer {
+  height: 15px; }
+
 .dropDown {
   margin-top: 5px; }
   .dropDown li {
     font-size: 20px; }
 
 .heroMain {
-  background-color: #FF6030;
+  background-color: #510100;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0; }
   .heroMain h1 {
-    color: #000000;
+    color: #F8A807;
     margin-bottom: 8px;
     margin-top: 15px;
-    font-size: 28px; }
-    .heroMain h1 a {
-      text-decoration: none;
-      color: #000000; }
-  .heroMain h3 {
-    margin-top: 0px; }
+    font-size: 42px; }
   .heroMain p {
-    color: #000000;
-    font-size: 18px; }
+    color: #F8A807;
+    font-size: 30px; }
 
 .removeBottomMargin {
   margin-bottom: 0; }
 
-.whatToExpectFluff {
-  background-image: url(../assets/img/bftrAbove.jpg);
-  height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.whatToExpectFluffPadding {
-  padding-bottom: 40px; }
-
-.whatToExpectTextPadding {
-  padding-bottom: 85px;
-  padding-top: 40px; }
-  .whatToExpectTextPadding h1 a {
-    text-decoration: none;
-    color: #333333; }
-
-.heroFluffContainer {
-  padding-top: 25px; }
-
-.heroMainFluff {
-  background-image: url(../assets/img/heroSecondary.jpg);
-  height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.heroSecondaryFluff {
-  background-image: url(../assets/img/volunteerImg.jpg);
-  height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.body1Fluff {
-  margin-top: 25px;
-  margin-bottom: 0;
-  background-image: url(../assets/img/fieldBattle.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px; }
-
 .containerTextPadding {
-  padding-top: 14px; }
+  padding-top: 14px;
+  background-color: #F3ECC9;
+  height: 100%; }
   .containerTextPadding .nonListParagraphContent {
     padding-left: 18px; }
 
@@ -111,34 +72,26 @@ img {
 .btn-next {
   background-color: rgba(255, 96, 48, 0.15); }
 
-.indexBtnStyle .btn {
-  text-align: left; }
-
 .btn-lg {
   font-size: 20px; }
 
-.btn-prev {
-  font-size: 18px; }
-
-.sarTables tbody tr td {
-  font-size: 22px; }
-
-table td + td {
-  /* this will go to the 2nd column of a table directly */ }
-
-table tr:nth-child(odd) {
-  background-color: #D2D2D2;
+.btn-lg:hover {
   background-color: rgba(255, 96, 48, 0.15); }
 
-table tr:first-child td {
-  background-color: #BABABA;
-  background-color: #ff9371; }
+.btn-lg:active, .btn-lg.active {
+  background-color: rgba(255, 96, 48, 0.15); }
+
+.btn-lg:focus {
+  background-color: rgba(255, 96, 48, 0.15) !important; }
+
+.btn-prev {
+  font-size: 18px; }
 
 .buttonChoiceOR {
   text-align: center;
   padding-top: 10px; }
 
-.btnStyleSecondaryAssess {
-  text-align: left;
-  white-space: normal;
-  margin-top: 10px; }
+.carousel-inner {
+  background-position: 50%;
+  width: 100%;
+  max-height: 250px !important; }
