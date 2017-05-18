@@ -23,6 +23,12 @@ a, a:active, a:visited, a:focus {
 
 a.pdflink {
   font-size: 18px;
+  text-decoration: underline;
+  color: #FF6030; }
+
+a.pdflink:hover {
+  font-size: 18px;
+  text-decoration: none;
   color: #FF6030; }
 
 #footer {
@@ -45,6 +51,20 @@ a.pdflink {
     margin-top: 15px;
     font-size: 42px; }
   .heroMain p {
+    color: #F8A807;
+    font-size: 30px; }
+
+.heroFoot {
+  background-color: #547980;
+  background-size: cover;
+  margin-bottom: 0; }
+  .heroFoot h1 {
+    color: #F8A807;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-size: 42px;
+    text-align: center; }
+  .heroFoot p {
     color: #F8A807;
     font-size: 30px; }
 

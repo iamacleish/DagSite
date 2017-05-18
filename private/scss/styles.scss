@@ -35,6 +35,12 @@ a, a:active, a:visited, a:focus {
 }
 a.pdflink{
   font-size: 18px;
+  text-decoration:underline;
+  color: $color-orange;
+}
+a.pdflink:hover{
+  font-size: 18px;
+  text-decoration:none;
   color: $color-orange;
 }
 #footer {
@@ -70,6 +76,29 @@ a.pdflink{
   }
 
 }
+
+.heroFoot{
+  //gradiennt and parallax
+  background-color: #547980;
+  background-size: cover;
+  margin-bottom: 0;
+
+  h1{
+    color: $color-title-text;
+    margin-bottom: 8px;
+    margin-top:15px;
+    font-size: 42px;
+    text-align: center;
+
+  }
+  p{
+    color: $color-title-text;
+    font-size: 30px;
+  }
+
+}
+
+
 .removeBottomMargin{
   margin-bottom: 0;
 }
